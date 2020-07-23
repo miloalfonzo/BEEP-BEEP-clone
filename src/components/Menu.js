@@ -25,9 +25,9 @@ function Menu({ icon, title }) {
 
   return (
     <Contenedor>
-      <div class="menu row ml-2 mb-3 p-1">
-        <i class={icon}></i>
-        <h2 class="ml-4">{title}</h2>
+      <div className="menu row ml-2 mb-3 p-1">
+        <i className={icon}></i>
+        <h2 className="ml-4">{title}</h2>
       </div>
     </Contenedor>
   );

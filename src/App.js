@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "./components/Menu";
 import Profile from "./components/Profile";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -21,22 +22,23 @@ function App() {
             <Menu icon="far fa-list-alt" title="Listas" />
             <Menu icon="far fa-user" title="Perfil" />
             <Menu icon="fas fa-ellipsis-h" title="Más opciones" />
-            {/* boton twittear */}
+            {/* tweet button */}
             <button className="btn btn-primary">Twittear</button>
-            {/* componente de usuario */}
+            {/* user profile */}
             <Profile />
           </div>
         </div>
         <div className="sec-two">
-          {/* header de inicio */}
-          {/* componente de tweetear */}
-          {/* componente de tweets */}
+          {/* header */}
+          <Header />
+          {/* tweetear */}
+          {/* tweets */}
         </div>
         <div className="sec-three">
-          {/* componente buscador */}
-          {/* componente de tendencias */}
-          {/* componente de sugerencias de seguir */}
-          {/* componente footer */}
+          {/*  buscador */}
+          {/*  de tendencias */}
+          {/* sugerencias de seguir */}
+          {/*  footer */}
         </div>
       </div>
     </div>

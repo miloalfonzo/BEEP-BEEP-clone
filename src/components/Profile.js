@@ -30,20 +30,20 @@ function Profile() {
 
   return (
     <Contenedor>
-      <div class="prof row ml-1 mt-2">
+      <div className="prof row ml-1 mt-2">
         <img
-          class="mt-3"
+          className="mt-3"
           src="https://i.pinimg.com/564x/be/9c/57/be9c578526eecff0d4a171b2f8ce27c7.jpg"
         />
-        <div class="text mt-4 ml-2">
+        <div className="text mt-4 ml-2">
           <p>
             <b>Edward Elric </b>
           </p>
-          <p class="user">
+          <p className="user">
             <small>@reallytallguy</small>
           </p>
         </div>
-        <i class="ml-5 mt-4 fas fa-chevron-down"></i>
+        <i className="ml-5 mt-4 fas fa-chevron-down"></i>
       </div>
     </Contenedor>
   );
