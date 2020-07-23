@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "./components/Menu";
 import Profile from "./components/Profile";
 import Header from "./components/Header";
+import InputTweet from "./components/InputTweet";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           {/* header */}
           <Header />
           {/* tweetear */}
+          <InputTweet />
           {/* tweets */}
         </div>
         <div className="sec-three">

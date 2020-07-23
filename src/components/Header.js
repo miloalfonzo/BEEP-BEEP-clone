@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Header() {
   const Contenedor = styled.div`
     .line {
-      width: 50vw;
+      width: 46.8vw;
       height: 50px;
       border-bottom: 1px solid #686f75;
     }
