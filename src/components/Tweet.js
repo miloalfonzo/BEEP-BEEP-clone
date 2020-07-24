@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Tweet({ img, name, user, tweet }) {
+function Tweet({ img, name, user, tweet, alt }) {
   const Container = styled.div`
     img {
       width: 60px;
@@ -53,7 +53,7 @@ function Tweet({ img, name, user, tweet }) {
     <Container>
       <div className="cont ">
         <div className="row mb-2">
-          <img className="mt-3 ml-3" src={img} />
+          <img className="mt-3 ml-3" alt={alt} src={img} />
           <div className="text ml-3 mt-3">
             <p>
               <b> {name} </b> <small>@{user}</small>

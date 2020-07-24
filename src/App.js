@@ -50,7 +50,7 @@ function App() {
             {/* tweet button */}
             <button className="btn btn-primary">Twittear</button>
             {/* user profile */}
-            <Profile />
+            <Profile alt="User" />
           </div>
         </div>
 
@@ -58,10 +58,11 @@ function App() {
           {/* header */}
           <Header />
           {/* tweetear */}
-          <InputTweet />
+          <InputTweet alt="User" />
           {/* tweets */}
           <Tweet
             img="https://i.pinimg.com/564x/28/e9/61/28e961fbf24666dacb11c5e6a5e6f07e.jpg"
+            alt="User"
             name="Roy Mustang"
             user="firebender"
             tweet="Bien flama 🔥🔥🔥"
@@ -69,24 +70,28 @@ function App() {
           <Tweet
             img="https://66.media.tumblr.com/4eb30011ea1c84d3e3e317299c26a031/tumblr_pccakcos2A1vj7siio3_500.png"
             name="Alphonse Elric"
+            alt="User"
             user="al_elric"
             tweet=" Si pudiese dormir estaria cansado"
           />
           <Tweet
             img="https://e.snmc.io/i/300/w/30d5ab2df798b5e6170f7bb148dc7009/6320917"
             name="Tucker"
+            alt="User"
             user="bestfather_besthuman"
             tweet="¡Lindo día para jugar con mi perro y mi hija!"
           />
           <Tweet
             img="https://img1.ak.crunchyroll.com/i/spire4/7a23a2506c87cb8cd68707738d48a8541508245018_full.jpg"
             name="Riza"
+            alt="User"
             user="shootYou"
             tweet="Me tienen podrida"
           />
           <Tweet
             img="https://vignette.wikia.nocookie.net/fullmetal-alchemist-database/images/d/dc/LingYaoEp15.png/revision/latest/scale-to-width-down/340?cb=20121007024747"
             name="Ling Yao"
+            alt="User"
             user="notgreedy"
             tweet="🤡🤡🤡 <--- yo"
           />
@@ -134,16 +139,19 @@ function App() {
               <Suggestions
                 img="https://vignette.wikia.nocookie.net/fma/images/8/85/Envidia_rostro.png/revision/latest?cb=20141228003215&path-prefix=es"
                 name="envy"
+                alt="User"
                 user="wantyours"
               />
               <Suggestions
                 img="https://vignette.wikia.nocookie.net/fma/images/e/ed/Manga_Bradley_portrait_small.jpg/revision/latest/top-crop/width/360/height/450?cb=20131216214329&path-prefix=es"
                 name="King ✔️ "
+                alt="User"
                 user="officialfurher"
               />
               <Suggestions
                 img="https://i.pinimg.com/originals/20/c4/f7/20c4f7bc300e69d365b63a9c4f002875.jpg"
                 name="TRUTH"
+                alt="User"
                 user="imall"
               />
               <div className="bottom p-2">

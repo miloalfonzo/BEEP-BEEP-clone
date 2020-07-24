@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Suggestions({ img, name, user }) {
+function Suggestions({ img, name, user, alt }) {
   const Container = styled.div`
     .prof {
       background: #1f3040;
@@ -39,7 +39,7 @@ function Suggestions({ img, name, user }) {
     <Container>
       <div className="prof col-lg-12 ">
         <div className=" ml-2 row ">
-          <img className="mt-3 " src={img} />
+          <img className="mt-3 " alt={alt} src={img} />
           <div className="text mt-4 ml-2 ">
             <p>
               <b>{name}</b>

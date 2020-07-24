@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function InputTweet() {
+function InputTweet({ alt }) {
   const Container = styled.div`
     img {
       width: 60px;
@@ -45,6 +45,7 @@ function InputTweet() {
         <form>
           <div className="row">
             <img
+              alt={alt}
               className="mt-3 ml-3"
               src="https://i.pinimg.com/564x/be/9c/57/be9c578526eecff0d4a171b2f8ce27c7.jpg"
             />

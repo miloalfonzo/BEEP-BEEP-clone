@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Profile() {
+function Profile({ alt }) {
   const Contenedor = styled.div`
     .prof {
       padding-left: 15px;
@@ -36,6 +36,7 @@ function Profile() {
       <div className="prof row ml-1 mt-2">
         <img
           className="mt-3"
+          alt={alt}
           src="https://i.pinimg.com/564x/be/9c/57/be9c578526eecff0d4a171b2f8ce27c7.jpg"
         />
         <div className="text mt-4 ml-2">
