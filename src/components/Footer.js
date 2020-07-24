@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Footer() {
   const Container = styled.div`
     p {
-      font-size: 10px;
+      font-size: 13px;
       color: #686f75;
       margin: 3px;
     }

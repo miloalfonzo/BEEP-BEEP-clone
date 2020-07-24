@@ -21,7 +21,10 @@ function InputTweet({ alt }) {
       background: #31a1e1;
       border-radius: 50px;
       width: 100px;
-      margin-left: 20vw;
+    }
+    .row2 {
+      display: flex;
+      justify-content: space-between;
     }
     i {
       color: #1e7ac3;
@@ -66,8 +69,8 @@ function InputTweet({ alt }) {
               <i className="fas fa-chart-bar"></i>
               <i className="far fa-smile"></i>
               <i className="far fa-calendar-alt"></i>
-              <button className="btn btn-primary p-2 ">Twittear</button>
             </div>
+            <button className="btn btn-primary p-2 mr-3 ">Twittear</button>
           </div>
           <div className="row space"></div>
         </form>
