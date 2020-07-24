@@ -26,6 +26,9 @@ function Profile() {
     i {
       font-size: 20px;
     }
+    small {
+      color: #686f75;
+    }
   `;
 
   return (
