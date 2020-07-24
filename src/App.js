@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import styled from "styled-components";
 
 function App() {
-  const Trend = styled.div`
+  const Container = styled.div`
     .title {
       background: #1f3040;
       border-radius: 10px 10px 0 0;
@@ -97,7 +97,7 @@ function App() {
           <Search />
           {/*  de tendencias */}
 
-          <Trend>
+          <Container>
             <div className=" col-lg-11">
               <div className="title p-2">
                 <h5>
@@ -119,13 +119,39 @@ function App() {
                 trendTitle="Eligen al Alquimista más joven"
                 cant="2 mil tweets"
               />
+              <div className="bottom p-2 mb-3">
+                <p className="more ml-1 mt-2">Mostrar más</p>
+              </div>
+            </div>
+
+            <div className=" col-lg-11">
+              <div className="title p-2">
+                <h5>
+                  <b>A quien seguir</b>
+                </h5>
+              </div>
+              {/* sugerencias de seguir */}
+              <Suggestions
+                img="https://vignette.wikia.nocookie.net/fma/images/8/85/Envidia_rostro.png/revision/latest?cb=20141228003215&path-prefix=es"
+                name="envy"
+                user="wantyours"
+              />
+              <Suggestions
+                img="https://vignette.wikia.nocookie.net/fma/images/e/ed/Manga_Bradley_portrait_small.jpg/revision/latest/top-crop/width/360/height/450?cb=20131216214329&path-prefix=es"
+                name="King ✔️ "
+                user="officialfurher"
+              />
+              <Suggestions
+                img="https://i.pinimg.com/originals/20/c4/f7/20c4f7bc300e69d365b63a9c4f002875.jpg"
+                name="TRUTH"
+                user="imall"
+              />
               <div className="bottom p-2">
                 <p className="more ml-1 mt-2">Mostrar más</p>
               </div>
             </div>
-          </Trend>
-          {/* sugerencias de seguir */}
-          <Suggestions />
+          </Container>
+
           {/*  footer */}
           <Footer />
         </div>
