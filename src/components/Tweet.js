@@ -44,6 +44,9 @@ function Tweet({ img, name, user, tweet }) {
       border-radius: 50px;
       color: rgb(224, 36, 94);
     }
+    .container:hover {
+      background-color: rgb(25, 39, 52);
+    }
   `;
 
   return (

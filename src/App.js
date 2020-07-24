@@ -4,13 +4,36 @@ import Profile from "./components/Profile";
 import Header from "./components/Header";
 import InputTweet from "./components/InputTweet";
 import Tweet from "./components/Tweet";
+import Search from "./components/Search";
+import Trends from "./components/Trends";
+import Suggestions from "./components/Suggestions";
+import Footer from "./components/Footer";
+
+import styled from "styled-components";
 
 function App() {
+  const Trend = styled.div`
+    .title {
+      background: #1f3040;
+      border-radius: 10px 10px 0 0;
+      border-bottom: 1px solid #686f75;
+    }
+    .bottom {
+      background: #1f3040;
+      border-radius: 0 0 10px 10px;
+    }
+    .more {
+      color: #31a1e1;
+    }
+    .bottom:hover {
+      background-color: #344350;
+    }
+  `;
   return (
     <div className="App">
-      <div className="container row">
-        <div className="sec-one">
-          <div class="ml-5">
+      <div className=" row">
+        <div className="one col-lg-3">
+          <div className="ml-5">
             {/* logo */}
             <div className="logo mt-2 mb-2 ml-2">
               <i className="fas fa-dove"></i>
@@ -30,7 +53,8 @@ function App() {
             <Profile />
           </div>
         </div>
-        <div className="sec-two">
+
+        <div className="two col-lg-6">
           {/* header */}
           <Header />
           {/* tweetear */}
@@ -52,14 +76,58 @@ function App() {
             img="https://e.snmc.io/i/300/w/30d5ab2df798b5e6170f7bb148dc7009/6320917"
             name="Tucker"
             user="bestfather_besthuman"
-            tweet="¡Lindo día para jugar con mi perro y mi hija"
+            tweet="¡Lindo día para jugar con mi perro y mi hija!"
+          />
+          <Tweet
+            img="https://img1.ak.crunchyroll.com/i/spire4/7a23a2506c87cb8cd68707738d48a8541508245018_full.jpg"
+            name="Riza"
+            user="shootYou"
+            tweet="Me tienen podrida"
+          />
+          <Tweet
+            img="https://vignette.wikia.nocookie.net/fullmetal-alchemist-database/images/d/dc/LingYaoEp15.png/revision/latest/scale-to-width-down/340?cb=20121007024747"
+            name="Ling Yao"
+            user="notgreedy"
+            tweet="🤡🤡🤡 <--- yo"
           />
         </div>
-        <div className="sec-three">
+
+        <div className="three col-lg-3">
           {/*  buscador */}
+          <Search />
           {/*  de tendencias */}
+
+          <Trend>
+            <div className=" col-lg-11">
+              <div className="title p-2">
+                <h5>
+                  <b>Qué está pasando</b>
+                </h5>
+              </div>
+              <Trends
+                trendType="Tendencia en Amestris"
+                trendTitle="King Bradley"
+                cant="40 mil tweets"
+              />
+              <Trends
+                trendType="Tendencia global"
+                trendTitle="Padre"
+                cant="100 mil tweets"
+              />
+              <Trends
+                trendType="General • Hace 5 minutos "
+                trendTitle="Eligen al Alquimista más joven"
+                cant="2 mil tweets"
+              />
+              <div className="bottom p-2">
+                <p className="more ml-1 mt-2">Mostrar más</p>
+              </div>
+            </div>
+          </Trend>
           {/* sugerencias de seguir */}
+          <Suggestions />
           {/*  footer */}
+          <Footer />
         </div>
       </div>
     </div>

@@ -3,25 +3,21 @@
   margin: 0;
   box-sizing: border-box;
   color: white;
-  max-width: 100vw;
-  max-height: 100vh;
 }
 
 body {
   background-color: #18242e;
 }
 
-.sec-one {
-  width: 25vw;
-  min-width: 300px;
-  height: 100vh;
-  border-right: 1px solid #686f75;
+.one,
+.two,
+.three {
+  border: 1px solid #686f75;
 }
 
-.sec-two {
-  width: 47vw;
-  height: 100vh;
-  border-right: 1px solid #686f75;
+.two {
+  border-left: none;
+  border-right: none;
 }
 
 .logo {
@@ -46,4 +42,17 @@ body {
 .logo:hover {
   background-color: rgba(29, 161, 242, 0.1);
   border-radius: 50px;
+}
+
+@media (max-width: 985px) {
+  .sec-one {
+    border-right: none;
+    width: 200vw;
+    border-bottom: 1px solid #686f75;
+  }
+  .sec-two {
+    width: 20vw;
+    border-right: none;
+    border-bottom: 1px solid #686f75;
+  }
 }
