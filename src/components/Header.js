@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Header() {
   const Contenedor = styled.div`
     .line {
-      width: 46.8vw;
+      width: 100%;
       height: 50px;
       border-bottom: 1px solid #686f75;
     }
@@ -27,7 +27,7 @@ function Header() {
   return (
     <Contenedor>
       <div className="row ">
-        <div class="line ml-3">
+        <div class="line ">
           <p class="text mt-2 ml-2 ">
             <b>Inicio</b>
             <i class="mr-3 far fa-star"></i>

@@ -41,7 +41,7 @@ function InputTweet() {
 
   return (
     <Container>
-      <div className="container">
+      <div className="">
         <form>
           <div className="row">
             <img

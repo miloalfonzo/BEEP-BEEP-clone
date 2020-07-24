@@ -44,15 +44,15 @@ function Tweet({ img, name, user, tweet }) {
       border-radius: 50px;
       color: rgb(224, 36, 94);
     }
-    .container:hover {
-      background-color: rgb(25, 39, 52);
-    }
+    // .cont:hover {
+    //   background-color: rgb(25, 39, 52);
+    // }
   `;
 
   return (
     <Container>
-      <div className="container">
-        <div className="row tmb-2">
+      <div className="cont ">
+        <div className="row mb-2">
           <img className="mt-3 ml-3" src={img} />
           <div className="text ml-3 mt-3">
             <p>
