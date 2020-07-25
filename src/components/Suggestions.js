@@ -24,6 +24,7 @@ function Suggestions({ img, name, user, alt }) {
     }
     .prof:hover {
       background-color: #344350;
+      cursor: pointer;
     }
     button {
       height: 40px;

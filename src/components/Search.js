@@ -11,6 +11,7 @@ function Search() {
     }
     .search {
       color: #8699a6;
+      border: 1px solid #344350;
       background-color: #344350;
       border-radius: 50px;
       padding: 8px;

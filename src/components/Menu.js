@@ -8,6 +8,7 @@ function Menu({ icon, title }) {
       padding: 2px;
     }
     h2 {
+      text-align: center;
       font-size: 20px;
     }
     .menu {
@@ -16,6 +17,7 @@ function Menu({ icon, title }) {
     .menu:hover {
       background-color: rgba(29, 161, 242, 0.1);
       border-radius: 50px;
+      cursor: pointer;
       i,
       h2 {
         color: #1e7ac3;

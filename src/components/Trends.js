@@ -5,6 +5,7 @@ function Trends({ trendType, trendTitle, cant }) {
   const Container = styled.div`
     .trends {
       background: #1f3040;
+      // user-select: none;
       .content {
         border-bottom: 1px solid #686f75;
       }
@@ -17,6 +18,7 @@ function Trends({ trendType, trendTitle, cant }) {
     }
     .trends:hover {
       background-color: #344350;
+      cursor: pointer;
     }
   `;
 

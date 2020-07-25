@@ -27,6 +27,7 @@ function App() {
     }
     .bottom:hover {
       background-color: #344350;
+      cursor: pointer;
     }
   `;
   return (
