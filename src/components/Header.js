@@ -28,10 +28,12 @@ function Header() {
     <Contenedor>
       <div className="row ">
         <div class="line ">
-          <p class="text mt-2 ml-2 ">
-            <b>Inicio</b>
-            <i class="mr-3 far fa-star"></i>
-          </p>
+          <div className="col-sm-12">
+            <div class="text mt-2 ml-2 ">
+              <b>Inicio</b>
+              <i class="mr-3 far fa-star"></i>
+            </div>
+          </div>
         </div>
       </div>
     </Contenedor>

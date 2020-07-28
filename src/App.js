@@ -98,7 +98,7 @@ function App() {
           />
         </div>
 
-        <div className="three col-lg-3">
+        <div className="three col-lg-3 ">
           {/*  buscador */}
           <Search />
           {/*  de tendencias */}

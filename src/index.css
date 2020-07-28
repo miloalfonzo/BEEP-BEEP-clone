@@ -46,14 +46,7 @@ body {
 }
 
 @media (max-width: 985px) {
-  .sec-one {
-    border-right: none;
-    width: 200vw;
-    border-bottom: 1px solid #686f75;
-  }
-  .sec-two {
-    width: 20vw;
-    border-right: none;
-    border-bottom: 1px solid #686f75;
+  .one {
+    display: none;
   }
 }
